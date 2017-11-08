@@ -358,11 +358,26 @@ footer {
     padding: 25px 0;
     background-color: #2c3e50; }
 
-.dropdown-toggle {
+.btn-lg, .dropdown-toggle {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
-  background-color: #cd5c5c;
+  font-weight: 600;
+  color: black;
+  background-color: white;
 }
+
+.btn-secondary:hover {
+  color: white;
+  background-color: black;
+  border-color: #6c757d;
+}
+
+.btn-secondary:not([disabled]):not(.disabled):active, .btn-secondary:not([disabled]):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: black;
+  border-color: #666e76;
+  box-shadow: 0 0 0 0.2rem rgba(134, 142, 150, 0.5);
 
 .btn-outline {
   font-size: 20px;
