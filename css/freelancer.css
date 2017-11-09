@@ -18,7 +18,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-  color: #18BC9C;
+  color: #999999;
   outline: none; }
 
 h1,
@@ -197,6 +197,30 @@ header.masthead {
       font-size: 3.75em; }
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
+
+      .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card.container {*
+    padding: 10px 16px;
+}
+
+.card-text {
+  margin-top: 0.25rem
+}
+
+.img-card {
+  display: inline;
+}
 
 #contato .portfolio-item {
   right: 0;
