@@ -67,6 +67,10 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto; }
 
+.text-stripe-1 {
+  color: black;
+}
+
 section {
   padding: 100px 0; }
   section h2 {
@@ -177,6 +181,10 @@ section.success {
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
 
+row.valores {
+  text-align: center;
+}
+
 header.masthead {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -213,12 +221,12 @@ header.masthead {
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
 }
 
 /* Add some padding inside the card container */
-.card.container {*
-    padding: 10px 16px;
+.card.container {
+   padding: 10px 16px;
 }
 
 .card-text {
@@ -227,7 +235,10 @@ header.masthead {
 
 .img-card {
   display: inline;
+
+
 }
+
 
  .portfolio-item {
   right: 0;
