@@ -13,17 +13,21 @@ p {
 p.small {
   font-size: 16px; }
 
-a,
+a {
+  color: white;
+  outline: none; }
+
+
 a.active,
 a:active,
 a:focus,
  a:hover {
-  color: #999999;
+  color: white;
   outline: none; }
 
-  li:hover{
+  /*li:hover{
     background-color:white;
-  }
+  } */
 
 h1,
 h2,
@@ -94,12 +98,16 @@ section.success {
     background: #860101; }
 
     section.stripe-2 {
-      color: white;
-      background: #313131; }
+      color: #212529;
+      background: white; }
 
       section.stripe-3 {
         color: white;
         background: #001438; }
+
+        section.destaques {
+          padding: 40px 0px !important;
+        }
 
 @media (max-width: 767px) {
   section {
@@ -193,8 +201,9 @@ row.valores {
   text-align: center !important;
 }
 
+
 header.masthead {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   color: white;
@@ -216,8 +225,8 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 200px;
-    padding-bottom: 100px; }
+    padding-top: 180px;
+    padding-bottom: 80px; }
     header.masthead .intro-text .name {
       font-size: 3.75em; }
     header.masthead .intro-text .skills {
